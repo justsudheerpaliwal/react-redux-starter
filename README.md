@@ -19,3 +19,7 @@ To help you kick start your  next react-redux project in no time.
 * #### Miscs
 * #### Config Info
 * #### Tools Used
+
+### Screens
+
+![App](assets/app-1.PNG)
