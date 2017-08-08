@@ -2,7 +2,7 @@ const  path = require('path');
 const  webpack = require('webpack');
 
 module.exports = {
-  entry: './client/index.js',
+  entry: './src/index.js',
   output: {
     filename:'bundle.js',
     path:path.resolve(__dirname, 'public/')
@@ -42,20 +42,27 @@ module.exports = {
       /**
        * Reducers alias here 
        * For example:
-       * bookReducers: path.resolve(__dirname, 'client/reducers/bookReducers.js')
        */
+      SampleReducer: path.resolve(__dirname, 'src/reducers/sample_reducer.js'),
 
       /**
        * Action alias here 
        * For example:
-       * bookActions: path.resolve(__dirname, 'client/actions/bookActions.js')
        */
+      SampleActions: path.resolve(__dirname, 'src/actions/sample_actions.js'),
 
       /**
-       * Component and Container alias here
+       * Component/Dumb Components alias here
        * For example: 
-       * Book: path.resolve(__dirname, 'client/components/Book.jsx')
        */        
+      App: path.resolve(__dirname, 'src/components/App.jsx'),
+
+      /**
+       * Containers/Smart  Components alias here
+       * For example: 
+       */ 
+      SmartComponent: path.resolve(__dirname, 'src/containers/SmartComponent.jsx')
+      
     },
     /**
      * When you are in theproduction branch, comment the following lines 
