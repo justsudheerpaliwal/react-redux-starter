@@ -64,10 +64,15 @@ module.exports = {
       SmartComponent: path.resolve(__dirname, 'src/containers/SmartComponent.jsx')
       
     },
-    /**
-     * When you are in theproduction branch, comment the following lines 
-     * of devtool so as to prevent throwing errorwhile building the bundle for production
-     */
-     devtool: 'cheap-module-eval-source-map'
+  },
+  /**
+   * When you are in theproduction branch, comment the following lines 
+   * of devtool so as to prevent throwing errorwhile building the bundle for production
+   */
+  devtool: 'cheap-module-eval-source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    compress: true,
+    port: 5000
   }
 }

@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import reducers from './reducers';
-
+import reducers from '../reducers';
+import SamrtComponent from 'SmartComponent';
 // create a redux store 
 const store = createStore(reducers);
 
