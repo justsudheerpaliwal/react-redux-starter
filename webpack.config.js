@@ -28,6 +28,9 @@ module.exports = {
     }), // minify
     new webpack.optimize.AggressiveMergingPlugin(),// Merging chunks
   ],
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   /**
    * When you are in the production branch, comment the following lines
    * of devtool so as to prevent throwing error while building the bundle for production
