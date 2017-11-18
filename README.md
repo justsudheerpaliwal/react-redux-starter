@@ -20,6 +20,9 @@ To help you kick start your  next react-redux project in no time.
 * #### Config Info
 * #### Tools Used
 
+## Change Log
+Change logs can be seen [here](./CHANGELOG.md)
+
 ### Screens
 
 ![App](assets/app-1.PNG)
