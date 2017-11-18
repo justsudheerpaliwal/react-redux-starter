@@ -1,6 +1,6 @@
 {
   "name": "react-redux-starter",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Boilerplate to kick start a react-redux project",
   "main": "index.js",
   "scripts": {
