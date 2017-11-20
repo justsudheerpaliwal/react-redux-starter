@@ -26,7 +26,7 @@ module.exports = {
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: false,
     }), // minify
-    new webpack.optimize.AggressiveMergingPlugin(),// Merging chunks
+    new webpack.optimize.AggressiveMergingPlugin(), // Merging chunks
   ],
   resolve: {
     extensions: ['.js', '.jsx'],
