@@ -22,7 +22,7 @@ Change logs can be seen [here](./CHANGELOG.md)
 ### Setup and Run
 
 * Clone this repo
-* Type ```npm run clean-commits``` // to start with a fresh git repo 
+* Type ```npm run clean``` // to start with a fresh git repo 
 * Type ```npm install```
 * Type ```npm run dev```
 * In the browser,  type ```localhost:5000```
