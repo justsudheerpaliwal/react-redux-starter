@@ -27,6 +27,9 @@ module.exports = {
       sourceMap: false,
     }), // minify
     new webpack.optimize.AggressiveMergingPlugin(), // Merging chunks
+    new webpack.HotModuleReplacementPlugin(), // hot reload
+    new webpack.NoEmitOnErrorsPlugin(), // better errors
+    new webpack.optimize.OccurrenceOrderPlugin(),
   ],
   resolve: {
     extensions: ['.js', '.jsx'],
