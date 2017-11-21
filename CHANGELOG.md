@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Hot Module Reloading
 - Scalable folder organization
-- Added SAAS Loader
+- Added SASS Loader
 - Favicon
 ### Changed
 - Nothing
