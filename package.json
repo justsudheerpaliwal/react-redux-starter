@@ -4,7 +4,7 @@
   "description": "Boilerplate to kick start a react-redux project",
   "main": "index.js",
   "scripts": {
-    "clean-commits": "rm -rf .git && git init && git add . && git commit -m \"initial setup\"",
+    "clean": "rm -rf .git && git init && git add . && git commit -m \"initial setup\" && reset",
     "dev": "webpack-dev-server",
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
