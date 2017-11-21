@@ -7,7 +7,7 @@ const App = () => (
     <h3 className="text-success">Hello from App</h3>
     <br />
     <p className="text-warning">
-      Edit the <code className="text-danger">src/containers/App</code> to change the content
+      Edit the <code className="text-danger">src/App</code> to change the content
     </p>
     {/* import your components/containers here */}
     <SmartComponent />
